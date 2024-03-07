@@ -1,0 +1,11 @@
+Para saber mais: como funciona a Web Speech API
+
+A Web Speech API foi lançada no final de 2012, e possibilita que as pessoas desenvolvedoras da Web forneçam recursos de entrada de fala e saída de texto para fala em um navegador da Web. Normalmente, esses recursos não estão disponíveis ao usar o software padrão de reconhecimento de fala ou leitor de tela.
+
+Esta API cuida da privacidade dos usuários. Então, antes de permitir que o site acesse a voz via microfone, o usuário deve conceder permissão declaradamente. O curioso é que a solicitação de permissão é a mesma da API getUserMedia, embora não precise da webcam. Se a página que executa essa API usa o protocolo HTTPS, o navegador solicita a permissão apenas uma vez, caso contrário, sempre vai solicitar quando um novo processo é iniciado.
+
+Outro recurso interessante da Web Speech API é que ela permite especificar um objeto gramatical. Você pode pensar nisso como um conjunto de regras para definir um idioma. A vantagem de usar uma gramática é que ela geralmente leva a melhores resultados devido à restrição das possibilidades da linguagem.
+
+A Web Speech API define uma interface complexa, chamada SpeechRecognition e você poder ler mais sobre ela aqui (https://wicg.github.io/speech-api/#speechreco-section).
+
+Também recomendo a leitura desse artigo (https://www.sitepoint.com/introducing-web-speech-api/) para se aprofundar mais ainda no assunto.

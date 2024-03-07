@@ -1,0 +1,66 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --fonte: "Ubuntu Mono", monospace;
+    --color-one: #116D6E;
+    --color-two: #321E1E;
+    --color-three: #4E3636;
+    --color-four: #CD1818;
+}
+
+body {
+    font-family: var(--fonte);
+    background-color: var(--color-two);
+    color: var(--color-four);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0rem;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 7rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 4rem;
+    margin-top: 1.25rem;
+}
+
+.mensagem {
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.box {
+    border: 2px solid var(--color-four);
+    display: inline-block;
+    font-size: 4rem;
+    padding: 0.625rem;
+    margin: 1.25rem;
+}
+
+.jogar-outra-vez {
+    padding: 0.5rem 1rem;
+    width: 15rem;
+    font-size: 2rem;
+    border: 0;
+    background: var(--color-four);
+    color: var(--color-two);
+    border-radius: 0.5rem;
+}
+
+.jogar-outra-vez:hover {
+    text-decoration: underline;
+    background: #a51515;
+}
